@@ -1,0 +1,156 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	font-family: Trebuchet MS, sans-serif;
+}
+
+body {
+	background: #e6e6e6;
+}
+
+
+/*LINKS*/
+#menu-navegacao a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#menu-navegacao a:link, #menu-navegacao a:visited {
+	color: #fff;
+	padding: 8px 12px;
+
+}
+
+#menu-navegacao a:hover{
+	color: #f7b600;
+	background: #fff;
+}
+
+#area-principal a {
+	text-decoration: none;
+	color: #f7b600;
+}
+
+#area-principal a:hover {
+	text-decoration: underline;
+}
+
+#conteudo-categoria a {
+	display: block;
+	color: #434343;
+}
+
+#conteudo-categoria a:hover {
+	display: block;
+	background: #fff;
+	color: #f7b600;
+}
+
+#facebook a:hover {
+	background: #4267B2;
+	color: #fff;
+}
+
+#youtube a:hover {
+	background: #FF0000;
+	color: #282828;
+}
+
+
+
+/*FORMATAÇÕES PADRÃO*/
+h1 {
+	color: #4e4e4e;
+	font-size: 2.5em;
+}
+
+#area-postagens h2 {
+	color: #f7b600;
+	font-size: 1.5em;
+}
+
+
+
+/*LAYOUT*/
+#area-navegacao {
+	background: #f7b600;
+	text-align: center;
+	padding: 10px;
+}
+
+#titulo-navegacao, #menu-navegacao {
+	padding: 10px;
+}
+
+#area-principal {
+	width: 920px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+#area-postagens {
+	width: 660px;
+	float: left;
+}
+
+#area-lateral {
+	background: #fff;
+	width: 240px;	
+	float: right;
+}
+
+#area-lateral-categoria {
+	background: #fff;
+	width: 240px;	
+	float: right;
+	margin-top: 20px;
+}
+
+#rodape {
+	clear: both;
+	text-align: center;
+	padding: 15px;
+	background: #CCC;
+	height: 50px;
+	padding-top: 50px;
+	color: #454545;
+}
+
+#conteudo-categoria {
+	padding: 10px;
+}
+
+.branco {
+	color: #fff;
+}
+
+.postagens {
+	background: #fff;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.data-postagem {
+	font-size: 1em;
+	border-bottom: 1px solid #b7b7b7;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.leia-mais {
+	display: block;	
+	margin-top: 10px;
+}
+
+.conteudo-area-lateral {
+	padding: 10px;
+}
+
+.titulo-area-lateral {
+	color: #4e4e4e;
+	background: #f7b600;
+	text-align: center;
+	padding: 10px;
+	font-weight: bold;
+}
